@@ -1,0 +1,33 @@
+*{
+	margin: 0px;
+	padding: auto;
+}
+
+header{
+    background-image:linear-gradient(rgba(0,0,0.2,0),rgba(0,0,0,0.1)), url('../images/header.jpg');
+    background-size: fixed;
+    background-repeat: no-repeat;
+    height: 98vh;
+	font-size: 20px;
+}
+
+
+.row{
+	color: black;
+	font-size: 20px;
+	padding: 8px 15px;
+	bottom: 10px;
+	text-align: left;
+	text-shadow: 1 1 1 2;
+}
+
+
+@-webkit-keyframes fade{
+	from {opacity: .4}
+	to {opacity: 1}
+}
+
+@keyframes fade{
+	from {opacity: .4}
+	to {opacity: 1}
+}
